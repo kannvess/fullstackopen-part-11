@@ -13,3 +13,6 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+## My pokedex repo
+https://github.com/kannvess/full-stack-open-pokedex
