@@ -9,6 +9,7 @@
     "eslint": "eslint ."
   },
   "dependencies": {
+    "bun": "^1.0.30",
     "elysia": "latest"
   },
   "devDependencies": {
