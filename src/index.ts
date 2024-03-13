@@ -4,7 +4,8 @@ export const PORT = process.env.PORT || 3000;
 
 export const app = new Elysia()
   .get("/", () => "Hello Elysia")
-  .get("/version", () => "1");
+  .get("/version", () => "1")
+  .get("/health", () => "ok");
 
 app.listen(PORT);
 
