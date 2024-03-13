@@ -2,7 +2,9 @@ import { Elysia } from "elysia";
 
 export const PORT = process.env.PORT || 3000;
 
-export const app = new Elysia().get("/", () => "Hello Elysia");
+export const app = new Elysia()
+  .get("/", () => "Hello Elysia")
+  .get("/version", () => "1");
 
 app.listen(PORT);
 
